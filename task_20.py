@@ -35,9 +35,6 @@ a.update(f)
 a.update(g)
 
 
-#dict.fromkeys(["A", "E", "I", "O", "U", "L", "N", "S", "T", "R", "А", "В", "Е", "И", "Н", "О", "Р", "С", "Т"],1) 
-#print(type(a))
-
 word=input("Введите одно слово: ")
 sum=0
 word=word.upper()
