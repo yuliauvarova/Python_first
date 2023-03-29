@@ -4,15 +4,15 @@
 # 2 2
 #     4 
 
-def sum(a,b):
+def summ(a,b):
     if b==0:
         return a
     if b!=0:
         a=a+1
         b=b-1
-        return sum(a,b)
+        return summ(a,b)
 
 a=int(input('Введите первое число: '))
 b=int(input('Введите второе число: '))
 
-print(sum(a,b))
+print(summ(a,b))
