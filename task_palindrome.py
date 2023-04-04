@@ -2,12 +2,11 @@
 
 def is_palindrome(text):
     if len(text)<=1:
-        return 'yes'
+        return True
     if text[0]==text[len(text)-1]:
-        is_palindrome(text[1:len(text)-1])
-        return 'yes'
+        return is_palindrome(text[1:len(text)-1])
     else:
-        return 'no'
+        return False
     
 
 user_text=input('Введите строку: ')
